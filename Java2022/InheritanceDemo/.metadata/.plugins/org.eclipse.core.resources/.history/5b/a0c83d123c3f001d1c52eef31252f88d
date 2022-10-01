@@ -1,0 +1,11 @@
+package inheritancedemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+	//	OgretmenManager ogretmanKrediManager=new OgretmenManager();
+	//	ogretmanKrediManager.Hesapla();
+		krediUI krediui = new KrediUI();
+		
+	}
+}

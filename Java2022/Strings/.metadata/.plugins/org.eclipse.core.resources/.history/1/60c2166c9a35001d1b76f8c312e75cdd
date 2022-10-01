@@ -1,0 +1,14 @@
+package strings;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj ="What alovely day.";
+		System.out.println(mesaj);
+		System.out.println("Eleman sayısı : "+mesaj.length());
+		System.out.println("5. Eleman : "+mesaj.charAt(4));
+		//charAt() = içine girilen indexdeki elemanı getirir
+		
+	}
+
+}

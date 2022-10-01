@@ -1,0 +1,17 @@
+package multiDimonsional;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[][] dizi = new int[10][10];
+		for (int i = 0; i < (dizi.length); i++) {
+			for (int j = 0; j < (dizi[i].length); j++) {
+				//dizi[i][j] = j;
+				System.out.print(dizi[i][i]+" : ");
+				System.out.println(dizi[i][j]);
+			}
+			System.out.println("--------------------");
+		}
+		System.out.println(dizi[0][0]);
+	}
+}

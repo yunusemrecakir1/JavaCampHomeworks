@@ -1,0 +1,15 @@
+package variablearguments;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int toplam =topla(2,8,6,9,5,4,5,2,1,5);
+	}
+	public static int topla(int... sayilar) {
+		int toplam=0;
+		for(int sayi:sayilar) {
+			toplam+=sayi;
+		}
+		return toplam;
+	}
+}

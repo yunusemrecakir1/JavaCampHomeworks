@@ -1,0 +1,6 @@
+package inheritancedemo;
+
+public class OgretmenManager  extends BaseKrediManager{
+
+	
+}

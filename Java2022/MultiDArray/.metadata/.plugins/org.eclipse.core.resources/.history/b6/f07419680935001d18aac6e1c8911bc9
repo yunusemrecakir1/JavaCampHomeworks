@@ -1,0 +1,20 @@
+package multiDimonsional;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int sayac=0;
+		int[][] sehirler = new int[10][10];
+		for (int i = 0; i <= (sehirler.length); i++) {
+			
+			for (int j = 0; j <= (sehirler[i].length); j++) {
+				sehirler[i][j] = j;
+				System.out.print(sehirler[i][sayac]+" : ");
+				System.out.println(sehirler[i][j]);
+			}
+			sayac++;
+			System.out.println("--------------------");
+			System.out.println();
+		}
+	}
+}

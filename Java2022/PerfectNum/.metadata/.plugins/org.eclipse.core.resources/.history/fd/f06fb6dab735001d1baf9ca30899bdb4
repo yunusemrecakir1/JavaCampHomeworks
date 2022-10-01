@@ -1,0 +1,18 @@
+package perfectnum;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int sayi=496;
+		int bolen=0;
+		for(int i=1;i<=sayi;i++) {
+			if(sayi%i==0) {
+				bolen=bolen+i;
+				if(sayi*2==bolen) {
+				 System.out.println(sayi+" mükemmel sayıdır.");
+				}
+			}
+		}
+		System.out.println("Bölenlerin toplamı : "+bolen);
+	}
+}

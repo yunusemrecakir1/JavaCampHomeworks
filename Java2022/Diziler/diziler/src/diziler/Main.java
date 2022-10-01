@@ -1,0 +1,27 @@
+package diziler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String[] ogrenciler = new String[6];
+		ogrenciler[0] = "Ahmet";
+		ogrenciler[1] = "Mehmet";
+		ogrenciler[2] = "Murat";
+		ogrenciler[3] = "Mahmure";
+		ogrenciler[4] = "Bilge";
+		ogrenciler[5] = "Zeynep";
+		// String ogrenciler[]= {"Ahmet","Mehmet","Murat","Mahmure","Bilge","Zeynep"};
+		for (int i = 0; i < ogrenciler.length; i++) {
+			System.out.println(ogrenciler[i]);
+		}
+		System.out.println("Yöntem 1 sonu");
+		
+		//---------------------------------------
+		
+		for(String ogr:ogrenciler) {
+			System.out.println(ogr);
+		}
+		System.out.println("Yöntem 2 sonu");
+
+		}
+	}

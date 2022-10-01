@@ -1,0 +1,8 @@
+package inheritancedemo;
+
+public class TarimKrediManager extends BaseKrediManager{
+	public void Hesapla() {
+		System.out.println("Kredi hesaplandı.");
+	} 
+	
+}
