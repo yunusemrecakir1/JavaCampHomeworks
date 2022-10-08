@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Java2022\Asal\.metadata\.plugins\org.eclipse.jdt.core
-1882400201.index
-3591300141.index
-1865797976.index

@@ -24,7 +24,7 @@ public class Main {
 		product3.setUnitInStock(3);
 		product3.setImageUrl("image13.jpg");
 
-		System.out.println("<ul>") ;
+		System.out.println("<ul>");
 		Product[] products = { product1, product2, product3 };
 		for (Product product : products) {
 			System.out.println("<li>" + product.getName() + "</li>");
@@ -33,18 +33,7 @@ public class Main {
 
 		IndividualCustomer individualCostumer = new IndividualCustomer();
 		individualCostumer.setId(1);
-		individualCostumer.setPhone("0532153221");
+		individualCostumer.setPhone("053213221");
 		individualCostumer.setCostumerNumber("5856654");
-		individualCostumer.setFirstName("Emre");
-		individualCostumer.setLastName("Çakır");
-	
-		CoporateCostumer corporateCustomer = new CoporateCostumer();
-		corporateCustomer.setId(2);
-		corporateCustomer.setCompanyName("Kompiter");
-		corporateCustomer.setPhone("05695631478");
-		corporateCustomer.setTaxNumber("526874126");
-		corporateCustomer.setCostumerNumber("5874946");
-		
-		Customer[] customers = {individualCostumer,corporateCustomer};
 	}
 }

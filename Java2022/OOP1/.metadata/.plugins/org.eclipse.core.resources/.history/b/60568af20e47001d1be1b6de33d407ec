@@ -44,7 +44,5 @@ public class Main {
 		corporateCustomer.setPhone("05695631478");
 		corporateCustomer.setTaxNumber("526874126");
 		corporateCustomer.setCostumerNumber("5874946");
-		
-		Customer[] customers = {individualCostumer,corporateCustomer};
 	}
 }

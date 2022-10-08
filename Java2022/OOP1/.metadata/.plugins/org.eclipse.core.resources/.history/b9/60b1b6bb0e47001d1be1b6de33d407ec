@@ -41,10 +41,8 @@ public class Main {
 		CoporateCostumer corporateCustomer = new CoporateCostumer();
 		corporateCustomer.setId(2);
 		corporateCustomer.setCompanyName("Kompiter");
-		corporateCustomer.setPhone("05695631478");
-		corporateCustomer.setTaxNumber("526874126");
-		corporateCustomer.setCostumerNumber("5874946");
-		
-		Customer[] customers = {individualCostumer,corporateCustomer};
+		corporateCustomer.setPhone(05695631478);
+		corporateCustomer.setTaxNumber(526874126);
+		corporateCustomer.setCostumerNumber(5874946);
 	}
 }

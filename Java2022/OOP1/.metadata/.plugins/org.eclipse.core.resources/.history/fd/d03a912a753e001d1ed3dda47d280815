@@ -1,8 +1,0 @@
-package oop1;
-
-public class Costumer {
- private int id;
- private String costumerNumber;
- private String phone;
- 
-}
