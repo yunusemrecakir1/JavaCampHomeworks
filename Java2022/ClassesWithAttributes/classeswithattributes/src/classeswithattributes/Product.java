@@ -1,21 +1,6 @@
 package classeswithattributes;
 
 public class Product {
-
-	public Product(int id, String name, String description,double pride, int stockAmount, String renk) {
-		System.out.println("Yapıcı blok çalıştı");
-		this.id=id;
-		this.renk=renk;
-		this.name=name;
-		this.price=price;
-		this.description=description;
-		this.stockAmount=stockAmount;
-		
-		
-	}
-	public Product() {
-		
-	}
 	
 	private String name;
 	private String description;
