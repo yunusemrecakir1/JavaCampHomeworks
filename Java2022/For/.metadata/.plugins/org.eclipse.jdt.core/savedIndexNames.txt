@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\pc\Documents\GitHub\JavaCampHomeworks\Java2022\For\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
